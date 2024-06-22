@@ -1,0 +1,80 @@
+/* default */
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  background: #141414;
+  color: #e5e5e5;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  scroll-behavior: smooth;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: #e5e5e5;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #b1b1b1;
+}
+
+/* Header */
+
+.Header {
+  display: flex;
+  margin: 0;
+  padding: 0 56px;
+  width: 100%;
+  height: 68px;
+  flex-direction: row;
+  align-items: center;
+  background-color: #000;
+}
+
+.Header .logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 16px;
+  line-height: 16px;
+  height: 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #e50914;
+}
+
+.Header .logo img {
+  height: 24px;
+}
+
+.NavBar {
+  display: flex;
+  align-items: center;
+  gap: 56px;
+  margin: 0;
+  width: 100%;
+  height: 68px;
+  text-wrap: nowrap;
+}
+
+.NavBar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+}
