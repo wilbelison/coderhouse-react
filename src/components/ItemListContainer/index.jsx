@@ -1,8 +1,9 @@
 import iconTrash from "../../assets/images/icon-trash.svg";
 
-function ItemListContainer() {
+function ItemListContainer({ greeting }) {
   return (
     <div className="ItemListContainer">
+      {greeting}
       <table>
         <thead>
           <tr>
@@ -18,7 +19,9 @@ function ItemListContainer() {
             <td>1</td>
             <td>R$ 99,99</td>
             <td>
-              <button className="itemRemove"><img src={iconTrash} alt="Remover" /></button>
+              <button className="itemRemove">
+                <img src={iconTrash} alt="Remover" />
+              </button>
             </td>
           </tr>
           <tr>
@@ -26,7 +29,9 @@ function ItemListContainer() {
             <td>1</td>
             <td>R$ 99,99</td>
             <td>
-              <button className="itemRemove"><img src={iconTrash} alt="Remover" /></button>
+              <button className="itemRemove">
+                <img src={iconTrash} alt="Remover" />
+              </button>
             </td>
           </tr>
           <tr>
@@ -34,7 +39,9 @@ function ItemListContainer() {
             <td>1</td>
             <td>R$ 99,99</td>
             <td>
-              <button className="itemRemove"><img src={iconTrash} alt="Remover" /></button>
+              <button className="itemRemove">
+                <img src={iconTrash} alt="Remover" />
+              </button>
             </td>
           </tr>
         </tbody>

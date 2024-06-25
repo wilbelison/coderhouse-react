@@ -7,7 +7,7 @@ function CartWidget() {
       <button className="cartButton">
         <img src={iconCart} alt="Carrinho" />
       </button>
-      <ItemListContainer />
+      <ItemListContainer greeting="Olá!" />
     </div>
   );
 }
