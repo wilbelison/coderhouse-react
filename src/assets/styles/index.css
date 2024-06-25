@@ -32,6 +32,14 @@ a:active {
   color: #b1b1b1;
 }
 
+button {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
 /* Header */
 
 .Header {
@@ -77,4 +85,41 @@ a:active {
   padding: 0;
   display: flex;
   gap: 16px;
+}
+
+.CartWidget {
+  position: relative;
+  margin-left: auto;
+}
+
+.CartWidget .cartButton {
+  position: relative;
+  padding: 8px 16px;
+  display: flex;
+  border: none;
+  border-radius: 8px;
+  background-color: #e50914;
+}
+
+.ItemListContainer {
+  position: absolute;
+  top: 32px;
+  right: 0;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.ItemListContainer table {
+  border: none;
+  font-size: 12px;
+  text-align: left;
+}
+
+.ItemListContainer table thead {
+  display: none;
+}
+
+.ItemListContainer table td {
+  padding: 4px 8px;
 }

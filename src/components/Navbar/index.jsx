@@ -1,4 +1,5 @@
 import logo from "../../assets/images/logo.svg";
+import CartWidget from "../CartWidget";
 
 const links = [
   { value: "Ação e Aventura", href: "#acao-aventura" },
@@ -24,6 +25,7 @@ function NavBar() {
         <img src={logo} alt="Gameflix" /> Store
       </a>
       <ul className="menu">{menu}</ul>
+      <CartWidget />
     </nav>
   );
 }
